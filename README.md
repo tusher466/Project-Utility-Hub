@@ -10,7 +10,7 @@
   <a href="https://github.com/tusher466/Project-Utility-Hub">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
   </a>
-  <a href="https://vercel.com/mdtusherhossen701-3673s-projects/utility_hub">
+  <a href="https://utilityhub-three-beta.vercel.app/">
     <img src="https://img.shields.io/badge/Vercel-Live%20Deployment-000000?style=for-the-badge&logo=vercel" alt="Vercel Deployment">
   </a>
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19">
@@ -1348,8 +1348,7 @@ Computer Science & Engineering Student
 
 - GitHub: https://github.com/tusher466
 - Repository: https://github.com/tusher466/Project-Utility-Hub
-- Vercel Project: https://vercel.com/mdtusherhossen701-3673s-projects/utility_hub
-
+- Vercel Project: https://utilityhub-three-beta.vercel.app/
 ---
 
 ## ⭐ Project Highlights
