@@ -10,7 +10,7 @@
   <a href="https://github.com/tusher466/Project-Utility-Hub">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
   </a>
-  <a href="https://utilityhub-three-beta.vercel.app/">
+  <a href="https://project-utility-hub.vercel.app/">
     <img src="https://img.shields.io/badge/Vercel-Live%20Deployment-000000?style=for-the-badge&logo=vercel" alt="Vercel Deployment">
   </a>
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19">
@@ -67,8 +67,8 @@ A successful QR or NFC scan can be recorded and, when automatic incrementing is 
 
 ```text
                  ┌─────────────────────────┐
-                 │      Utility Hub         │
-                 │  Central Workstation     │
+                 │      Utility Hub        │
+                 │  Central Workstation    │
                  └────────────┬────────────┘
                               │
           ┌───────────────────┼───────────────────┐
@@ -82,8 +82,8 @@ A successful QR or NFC scan can be recorded and, when automatic incrementing is 
           └───────────────────┼───────────────────┘
                               ▼
                      ┌─────────────────┐
-                     │ Local Persistence│
-                     │   localStorage   │
+                     │Local Persistence│
+                     │  localStorage   │
                      └─────────────────┘
 ```
 
@@ -803,7 +803,7 @@ The project is associated with the following Vercel project:
 
 **Utility Hub**
 
-https://utilityhub-three-beta.vercel.app/
+https://project-utility-hub.vercel.app/
 
 ### If you move the application into a subdirectory
 
@@ -1327,14 +1327,14 @@ When extending the project:
 ## 👨‍💻 Author
 
 **Md. Tusher Hossen**
-
 Computer Science & Engineering Student
+Daffodil International University
 
 ### Links
 
 - GitHub: https://github.com/tusher466
 - Repository: https://github.com/tusher466/Project-Utility-Hub
-- Vercel Project: https://utilityhub-three-beta.vercel.app/
+- Vercel Project: https://project-utility-hub.vercel.app/
 ---
 
 ## ⭐ Project Highlights
