@@ -803,7 +803,7 @@ The project is associated with the following Vercel project:
 
 **Utility Hub**
 
-https://vercel.com/mdtusherhossen701-3673s-projects/utility_hub
+https://utilityhub-three-beta.vercel.app/
 
 ### If you move the application into a subdirectory
 
