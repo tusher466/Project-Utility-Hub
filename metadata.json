@@ -1,0 +1,6 @@
+{
+  "name": "Count & QR Reader",
+  "description": "A precision tally counter and student attendance hub featuring Student's Scan Corner with NFC smartcard scanning, live optical QR reader, and CSV data export.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

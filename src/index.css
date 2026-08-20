@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@keyframes scan-line {
+  0% {
+    top: 5%;
+    opacity: 0.8;
+  }
+  50% {
+    top: 90%;
+    opacity: 1;
+  }
+  100% {
+    top: 5%;
+    opacity: 0.8;
+  }
+}
+
+.animate-scan {
+  animation: scan-line 2.2s ease-in-out infinite;
+}
+
+/* Custom subtle scrollbar for slate theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(203, 213, 225, 0.9);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 1);
+}
+
+/* Dedicated Print Stylesheet */
+@media screen {
+  #nfc-print-container {
+    display: none !important;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 10mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide entire regular UI when printing */
+  #root, nav, footer, .no-print, button, [role="alert"], [id^="settings-modal"], [id^="student-card-modal"] {
+    display: none !important;
+  }
+
+  /* Only show the injected print card container */
+  #nfc-print-container {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+  }
+
+  #nfc-print-container * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+
