@@ -1324,20 +1324,6 @@ When extending the project:
 
 ---
 
-## 📄 License
-
-A license file is not currently included in the inspected repository.
-
-If this project will be publicly distributed, add an explicit license such as:
-
-- MIT
-- Apache-2.0
-- GPL-3.0
-
-Do not claim a specific open-source license until the repository contains the corresponding license file.
-
----
-
 ## 👨‍💻 Author
 
 **Md. Tusher Hossen**
